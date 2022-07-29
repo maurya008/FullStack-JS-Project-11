@@ -1,0 +1,422 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+  
+  }
+
+  .logo-image {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .nav-items {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 350px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.5em;
+
+  }
+
+  .register-btn {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 100px;
+    
+  }
+
+  .register {
+    padding: 10px 30px;
+    background: transparent;
+    border-color: #0781f3;
+    color: #0781f3;
+    border-radius: 5px;
+  }
+
+  header {
+    display: flex;
+    flex: 0.5;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+
+  .left-head {
+    display: block;
+  }
+
+  .left-head > h3 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 500px;
+  }
+
+  .left-head > p {
+    font-size: 1em;
+    width: 500px;
+    margin-top: -35px;
+  }
+
+  .choose {
+    padding: 12px 35px;
+    background-color: #0781f3;
+    color: #e7eaec;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .right-head {
+    display: flex;
+    flex: 2;
+    margin-left: 350px;
+    margin-top: 20px;
+  }
+
+  .head-down {
+    display: flex;
+    flex: 0.5;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+
+  .head-down-left {
+    display: flex;
+    flex: 2;
+    margin-top: 50px;
+  }
+
+  .lens-lock {
+    width: 450px;
+  }
+
+  .head-down-right {
+    font-size: 1em;
+    margin-top: -35px;
+  }
+
+
+  .head-down-right > h3 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 450px;
+    margin-right: 200px;
+  }
+
+  .head-down-right > p {
+    font-size: 1em;
+    width: 450px;
+    margin-top: -35px;
+  }
+
+  .read-btn {
+    padding: 12px 35px;
+    background-color: #0781f3;
+    color: #e7eaec;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    
+  }
+
+  .technical {
+    display: flex;
+    flex: 0.5;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+
+
+  .technical-serv > h3 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 700px;
+    margin-right: 200px;
+  }
+
+  .technical-serv > p {
+    font-size: 1em;
+    width: 500px;
+    margin-top: -35px;
+  }
+
+  .more-btn {
+    padding: 12px 35px;
+    background-color: #0781f3;
+    color: #e7eaec;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    
+  }
+
+  .tech-right {
+    width: 450px;
+  }
+
+  .service {
+    display: flex;
+    flex: 0.5;
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+
+  .thor-host {
+    font-weight: bold;
+    font-size: 3em;
+    width: 850px;
+    margin-right: 200px;
+  }
+
+  .service-right {
+    font-size: 1em;
+    width: 560px;
+    margin-top: 35px;
+  }
+
+  .cards {
+    margin-left: 350px;
+  }
+
+  .row-host {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+  }
+
+  .row-vps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .pricing-space {
+    background-color: #0781f3;
+    width: 100%;
+    height: 600px;
+
+  }
+
+  .pricing-space > h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+  }
+
+  .pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 300px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pricing-card {
+    background-color: #ffffff;
+    display: block;
+    border-radius: 5px;
+    height: 450px;
+    width: 300px;
+  }
+
+  .check-list {
+    margin-top: 50px;
+  }
+
+  .price-check {
+    list-style-type: none;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+
+  }
+
+  .card-head  {
+    font-size: 1.5em;
+  }
+
+  .card-head-active {
+    font-size: 1.5em;
+  }
+
+  .card-body {
+    margin-top: -15px;
+  }
+ .dollar {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #999494;
+ }
+
+ .dollar > span {
+    color: #080909;
+ }
+
+ .plan-btn {
+    padding: 10px 30px;
+    background: transparent;
+    border-color: #0781f3;
+    color: #0781f3;
+    border-radius: 5px;
+ }
+
+ .plan-btn-blue {
+    padding: 10px 35px;
+    background-color: #0781f3;
+    color: #e7eaec;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+ }
+
+ .popular {
+    background-color: #0b0909;
+    color: #ffffff;
+    height: 100px;
+    margin-top: -32px;
+    border-radius: 5px;
+ }
+
+ .customer-love {
+    display: block; 
+    text-align: center;
+ }
+
+ .customer-love > h3 {
+    font-size: 4em;
+ }
+
+ .customer-love > p {
+    font-size: 1.2em;
+    margin-top: -40px;
+ }
+
+ .test-card {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+ }
+
+ .blog-card {
+    display: block;
+    border-radius: 5px;
+    height: 450px;
+    width: 350px;
+ }
+
+ .circle-author {
+  margin-top: 10px;
+  display: flex;
+ }
+
+
+ .down-test-card {
+  position: absolute;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: -250px;
+
+ }
+
+ .quit-worry {
+  background-color: #0781f3;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
+
+ .now-btn {
+  padding: 12px 35px;
+    background-color: #0781f3;
+    color: #e7eaec;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #ffffff;
+    font-weight: bold;
+    margin-left: 250px;
+ }
+
+ .worry-about-left > h3 {
+  font-size: 2em;
+  width: 350px;
+  margin-left: 250px;
+ }
+
+ .worry-about-left > p {
+  font-size: 1em;
+  width: 410px;
+  margin-left: 250px;
+
+ }
+
+ footer {
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 320px;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  bottom: -35%;
+}
+
+.link-boxes {
+  position: relative;
+  top: 10px;
+  display: flex;
+  line-height: 30px;
+}
+
+.logo-details > p {
+  width: 250px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  width: 300px;
+  height: 100px;
+  line-height: 28px;
+  list-style-type: none;
+}
+
+.link_name {
+  position: relative;
+  line-height: 60px;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+
